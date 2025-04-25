@@ -10,7 +10,7 @@ body {
   min-height: 4000px;
 }
 
-html,
+/* html,
 body {
   width: 100%;
   overflow-x: hidden;
@@ -18,7 +18,7 @@ body {
 
 .offcanvas {
   max-width: 80%;
-}
+} */
 
 .hero::before {
   content: "";
@@ -213,9 +213,9 @@ body {
     font-size: 65%;
   }
 
-  .offcanvas {
+/*   .offcanvas {
     width: 80%;
-  }
+  } */
 
   .mynavbar .nav-link {
     font-size: 2rem;
