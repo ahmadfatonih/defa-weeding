@@ -46,46 +46,46 @@
     </section>
 
     <nav class="navbar navbar-expand-md bg-transparent sticky-top mynavbar">
-        <div class="container">
-          <a class="navbar-brand" href="#">Defa</a>
-          <button
-            class="navbar-toggler border-0"
-            type="button"
-            data-bs-toggle="offcanvas"
-            data-bs-target="#offcanvasNavbar"
-            aria-controls="offcanvasNavbar"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div
-            class="offcanvas offcanvas-end"
-            tabindex="-1"
-            id="offcanvasNavbar"
-            aria-labelledby="offcanvasNavbarLabel"
-          >
-            <div class="offcanvas-header">
-              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Defa</h5>
-              <button
-                type="button"
-                class="btn-close"
-                data-bs-dismiss="offcanvas"
-                aria-label="Close"
-              ></button>
-            </div>
-            <div class="offcanvas-body">
-              <div class="navbar-nav ms-auto">
-                <a class="nav-link" href="#home">Home</a>
-                <a class="nav-link" href="#info">Info</a>
-                <a class="nav-link" href="#story">Story</a>
-                <a class="nav-link" href="#gallery">Gallery</a>
-                <a class="nav-link" href="#rsvp">RSVP</a>
-                <a class="nav-link" href="#gifts">Gifts</a>
-              </div>
+      <div class="container">
+        <a class="navbar-brand" href="#">Defa</a>
+        <button
+          class="navbar-toggler border-0"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="offcanvas offcanvas-end"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Defa</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <div class="navbar-nav ms-auto">
+              <a class="nav-link" href="#home">Home</a>
+              <a class="nav-link" href="#info">Info</a>
+              <a class="nav-link" href="#story">Story</a>
+              <a class="nav-link" href="#gallery">Gallery</a>
+              <a class="nav-link" href="#rsvp">RSVP</a>
+              <a class="nav-link" href="#gifts">Gifts</a>
             </div>
           </div>
         </div>
-      </nav>
+      </div>
+    </nav>
 
     <section id="home" class="home">
       <div class="container">
@@ -225,12 +225,175 @@
         </div>
       </div>
     </section>
+    <section id="story" class="story">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-10 text-center">
+            <span>Bagaimana Cinta Kami Bersemi</span>
+            <h2>Cerita Kami</h2>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto
+              ipsam omnis eveniet culpa praesentium perferendis repudiandae
+              quisquam debitis. Dolorem sunt rem, harum libero numquam vero
+              aperiam reiciendis totam temporibus doloribus.
+            </p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col">
+            <ul class="timeline">
+              <li>
+                <div
+                  class="timeline-image"
+                  style="background-image: url(img/devi.jpg)"
+                ></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h3>Pertama Bertemu</h3>
+                    <span>1 Juni 2017</span>
+                  </div>
+                  <div class="timeline-body">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li class="timeline-inverted">
+                <div
+                  class="timeline-image"
+                  style="background-image: url(img/fatoni.jpg)"
+                ></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h3>Mulai Serius</h3>
+                    <span>1 November 2024</span>
+                  </div>
+                  <div class="timeline-body">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div
+                  class="timeline-image"
+                  style="background-image: url(img/devi.jpg)"
+                ></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h3>Khitbah</h3>
+                    <span>2 April 2025</span>
+                  </div>
+                  <div class="timeline-body">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery" class="gallery">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-10 text-center">
+            <span>Memori Kisah Kami</span>
+            <h2>Galeri Foto</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+        </div>
+
+        <div
+          class="row row-cols-lg-4 row-cols-md-3 row-cols-sm-2 row-cols-1 justify-content-center"
+        >
+          <div class="col mt-3">
+            <a
+              href="img/gallery/1.jpg"
+              data-toggle="lightbox"
+              data-caption="Fatonih & Devi 1"
+              data-gallery="mygallery"
+            >
+              <img
+                src="img/gallery/thumbnail/1.jpg"
+                alt="Fatonih & Devi 1"
+                class="img-fluid w-100 rounded"
+              />
+            </a>
+          </div>
+          <div class="col mt-3">
+            <a
+              href="https://picsum.photos/id/400/1200/768"
+              data-toggle="lightbox"
+              data-caption="Fatonih & Devi 2"
+              data-gallery="mygallery"
+            >
+              <img
+                src="https://picsum.photos/id/400/300/400"
+                alt="Fatonih & Devi 2"
+                class="img-fluid w-100 rounded"
+              />
+            </a>
+          </div>
+          <div class="col mt-3">
+            <a
+              href="https://picsum.photos/id/404/1200/768"
+              data-toggle="lightbox"
+              data-caption="Fatonih & Devi 3"
+              data-gallery="mygallery"
+            >
+              <img
+                src="https://picsum.photos/id/404/300/400"
+                alt="Fatonih & Devi 3"
+                class="img-fluid w-100 rounded"
+              />
+            </a>
+          </div>
+          <div class="col mt-3">
+            <a
+              href="https://picsum.photos/id/405/1200/768"
+              data-toggle="lightbox"
+              data-caption="Fatonih & Devi 4"
+              data-gallery="mygallery"
+            >
+              <img
+                src="https://picsum.photos/id/405/300/400"
+                alt="Fatonih & Devi 4"
+                class="img-fluid w-100 rounded"
+              />
+            </a>
+          </div>
+          <div class="col mt-3">
+            <a
+              href="https://picsum.photos/id/406/1200/768"
+              data-toggle="lightbox"
+              data-caption="Fatonih & Devi 5"
+              data-gallery="mygallery"
+            >
+              <img
+                src="https://picsum.photos/id/406/300/400"
+                alt="Fatonih & Devi 5"
+                class="img-fluid w-100 rounded"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
       crossorigin="anonymous"
     ></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bs5-lightbox@1.8.5/dist/index.bundle.min.js"></script>
 
     <script>
       simplyCountdown(".simply-countdown", {
@@ -264,18 +427,21 @@
         refresh: 1000, // Refresh interval in ms, default: 1000
       });
     </script>
-      
-      
+
     <script>
-      const stickyTop = document.querySelector('.sticky-top');
-      const offcanvas = document.querySelector('.offcanvas');
+      const hamburger = document.querySelector(".navbar-toggler");
+      const stickyTop = document.querySelector(".sticky-top");
+      const offcanvas = document.querySelector(".offcanvas");
 
-      offcanvas.addEventListener('show.bs.offcanvas', function(){
-        stickyTop.style.overflow = 'visible';
+      // hamburger.addEventListener("click", function () {
+      //   stickyTop.style.overflow = "visible";
+      // });
+
+      offcanvas.addEventListener("show.bs.offcanvas", function () {
+        stickyTop.style.overflow = "visible";
       });
-
-      offcanvas.addEventListener('hidden.bs.offcanvas', function(){
-        stickyTop.style.overflow = 'hidden';
+      offcanvas.addEventListener("hidden.bs.offcanvas", function () {
+        stickyTop.style.overflow = "hidden";
       });
     </script>
   </body>
