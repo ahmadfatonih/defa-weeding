@@ -10,6 +10,16 @@ body {
   min-height: 4000px;
 }
 
+html,
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.offcanvas {
+  max-width: 80%;
+}
+
 .hero::before {
   content: "";
   position: absolute;
@@ -201,6 +211,10 @@ body {
 @media (max-width: 768px) {
   html {
     font-size: 65%;
+  }
+
+  .offcanvas {
+    width: 80%;
   }
 
   .mynavbar .nav-link {
